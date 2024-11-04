@@ -1,0 +1,3 @@
+# Nano-Edu
+
+This translation is in progress and it will be available soon...
