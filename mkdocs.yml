@@ -1,0 +1,95 @@
+site_name: STEAMtroniX
+site_url: https://docs.steamtronix.az/
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.share
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: az
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Light mode    
+      primary: teal
+      accent: lime
+
+
+plugins:
+  - social
+  - search:
+      enabled: true
+
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: az
+          default: true
+          name: Azərbaycan dili
+          build: true
+        - locale: en
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+
+
+nav:
+  - index.md       
+  - nano/nano-edu.md
+
+
+docs_dir: docs  # Root docs folder
+
+# Additional MkDocs and theme configurations
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/steamtronix
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/steamtronix
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/steamtronix/
+    - icon: fontawesome/brands/tiktok
+      link: https://www.tiktok.com/@steamtronix
+    - icon: fontawesome/brands/github
+      link: https://github.com/steamtronix  
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="https://steamtronix.az/"  target="_blank" rel="noopener">STEAMtroniX Team</a>
