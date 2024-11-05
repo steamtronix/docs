@@ -1,11 +1,13 @@
-site_name: STEAMtroniX
+site_name: STEAMtronix
 site_url: https://docs.steamtronix.az/
 
 theme:
   name: material
   features:
-    - navigation.top
     - navigation.sections
+    - navigation.expand
+#    - navigation.path
+    - toc.follow
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -16,24 +18,26 @@ theme:
     - content.code.copy
   language: az
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Dark mode
-      primary: teal
-      accent: purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Light mode    
-      primary: teal
-      accent: lime
+      primary: blue
+      accent: blue
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Dark mode
+      primary: blue
+      accent: blue 
+  logo: assets/steamtronix-logo.png
+  favicon: assets/steamtronix-lfavicon-512x512.png
 
 
 plugins:
   - social
-  - search:
-      enabled: true
+  - search
+  - optimize
 
 
 plugins:
@@ -66,6 +70,8 @@ extra:
       link: https://www.instagram.com/steamtronix
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/steamtronix
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/steamtronix
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/steamtronix/
     - icon: fontawesome/brands/tiktok
@@ -92,4 +98,4 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://steamtronix.az/"  target="_blank" rel="noopener">STEAMtroniX Team</a>
+  &copy; 2024 <a href="https://steamtronix.az/"  target="_blank" rel="noopener">STEAMtronix</a>
