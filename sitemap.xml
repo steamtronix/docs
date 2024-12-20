@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://docs.steamtronix.az/</loc>
+        <lastmod>2024-12-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="az" href="https://docs.steamtronix.az/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.steamtronix.az/en/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.steamtronix.az/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.steamtronix.az/nano/nano-edu/</loc>
+        <lastmod>2024-12-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="az" href="https://docs.steamtronix.az/nano/nano-edu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.steamtronix.az/en/nano/nano-edu/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.steamtronix.az/ru/nano/nano-edu/"/>
+    </url>
+    <url>
+        <loc>https://docs.steamtronix.az/en/</loc>
+        <lastmod>2024-12-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.steamtronix.az/en/"/>
+        <xhtml:link rel="alternate" hreflang="az" href="https://docs.steamtronix.az/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.steamtronix.az/ru/"/>
+    </url>
+    <url>
+        <loc>https://docs.steamtronix.az/en/nano/nano-edu/</loc>
+        <lastmod>2024-12-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.steamtronix.az/en/nano/nano-edu/"/>
+        <xhtml:link rel="alternate" hreflang="az" href="https://docs.steamtronix.az/nano/nano-edu/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.steamtronix.az/ru/nano/nano-edu/"/>
+    </url>
+    <url>
+        <loc>https://docs.steamtronix.az/ru/</loc>
+        <lastmod>2024-12-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.steamtronix.az/ru/"/>
+        <xhtml:link rel="alternate" hreflang="az" href="https://docs.steamtronix.az/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.steamtronix.az/en/"/>
+    </url>
+    <url>
+        <loc>https://docs.steamtronix.az/ru/nano/nano-edu/</loc>
+        <lastmod>2024-12-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://docs.steamtronix.az/ru/nano/nano-edu/"/>
+        <xhtml:link rel="alternate" hreflang="az" href="https://docs.steamtronix.az/nano/nano-edu/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.steamtronix.az/en/nano/nano-edu/"/>
+    </url>
+</urlset>
